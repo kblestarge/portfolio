@@ -3,7 +3,7 @@ var main = function() {
 
 	console.log("Hello world");
 
-	$('.kbtn').click(function() {
+	$('.kbtn, #home h1').click(function() {
             $('#home h1').toggleClass("appear slide");
             $('#home .main-btn').toggleClass("appear");
 
@@ -12,7 +12,21 @@ var main = function() {
             $('#projects').removeClass("main-btnPressed");
             $('#socialM').removeClass("main-btnPressed");
 
-            $(this).toggleClass("kbtnPressed");
+            $(".kbtn").toggleClass("kbtnPressed");
+    });
+
+    $( 'body' ).click( function ( e ) {        
+            if ( this === e.target ) {
+                $('#home h1').toggleClass("appear slide");
+                $('#home .main-btn').toggleClass("appear");
+
+                $('#proj-menu').removeClass("appear fade");
+                $('#soc-menu').removeClass("appear fade");
+                $('#projects').removeClass("main-btnPressed");
+                $('#socialM').removeClass("main-btnPressed");
+
+                $(".kbtn").toggleClass("kbtnPressed");
+            }
     });
 
 	$('#home #projects').click(function() {
@@ -42,6 +56,12 @@ var main = function() {
     		function() {
     		$('#fizzbuzz span').text('Fizzbuzz');
 	});
+
+    $('#chf').hover(function() {
+            $('#chf span').text('');},
+            function() {
+            $('#chf span').text('CHF');
+    });
 }
 
 $(document).ready(main);

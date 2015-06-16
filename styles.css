@@ -26,6 +26,7 @@ h1{
 	margin-top: 20px;
 	margin-left: 20px;
 	float: left;
+	margin-bottom: 30;
 }
 
 .hidden{
@@ -171,6 +172,10 @@ ul > li{
 
 .projects{
 	clear: both;
+	background-color: rgb(92, 131, 47);;
+	height: 80%;
+	margin-top: 244px;
+	border-radius: 30px;
 }
 
 .project{
@@ -185,6 +190,7 @@ ul > li{
 	padding-top: 73px;
 	background-repeat: no-repeat;
 	color: #5C832F;
+	border-radius: 5px;
 }
 
 .box-behind{
@@ -205,4 +211,31 @@ ul > li{
 }
 #fizzbuzz:hover{
 	background-image: url("img/fizzbuzz.png");
+}
+
+#chf{
+	background-image: url("img/chfPixelated.png");
+	background-size: cover;
+}
+#chf:hover{
+	background-image: url("img/chf.png");
+}
+
+.fsPic{
+	float: right;
+	border-radius: 30px;
+}
+
+.youtube{
+	margin-top: 100px;
+	margin-left: 100px;
+	width: 560px; 
+	height: 315px;
+}
+
+.vimeo{
+	margin-top: 100px;
+	margin-left: 100px;
+	width: 500px;
+	height: 281px;
 }
