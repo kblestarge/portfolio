@@ -172,10 +172,14 @@ ul > li{
 
 .projects{
 	clear: both;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin: 0 auto;
 	background-color: rgb(92, 131, 47);;
-	height: 80%;
+	overflow: hidden;
 	margin-top: 244px;
 	border-radius: 30px;
+	padding-bottom: 100px;
 }
 
 .project{
@@ -226,16 +230,21 @@ ul > li{
 	border-radius: 30px;
 }
 
-.youtube{
+.vid-container{
+	display: inline-block;
+	text-align: center;
 	margin-top: 100px;
 	margin-left: 100px;
+	width: 560px;
+	height: 315px;
+}
+
+.youtube{
 	width: 560px; 
 	height: 315px;
 }
 
 .vimeo{
-	margin-top: 100px;
-	margin-left: 100px;
 	width: 500px;
 	height: 281px;
 }

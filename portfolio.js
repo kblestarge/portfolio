@@ -1,3 +1,4 @@
+//I need to figure out how to use HTML5 storage to save the state of a page when the back button is pressed.
 
 var main = function() {
 
