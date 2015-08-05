@@ -1,8 +1,5 @@
 //I need to figure out how to use HTML5 storage to save the state of a page when the back button is pressed.
-
 var main = function() {
-
-	console.log("Hello world");
 
 	$('.kbtn, #home h1').click(function() {
             $('#home h1').toggleClass("appear slide");
@@ -14,20 +11,6 @@ var main = function() {
             $('#socialM').removeClass("main-btnPressed");
 
             $(".kbtn").toggleClass("kbtnPressed");
-    });
-
-    $( 'body' ).click( function ( e ) {        
-            if ( this === e.target ) {
-                $('#home h1').toggleClass("appear slide");
-                $('#home .main-btn').toggleClass("appear");
-
-                $('#proj-menu').removeClass("appear fade");
-                $('#soc-menu').removeClass("appear fade");
-                $('#projects').removeClass("main-btnPressed");
-                $('#socialM').removeClass("main-btnPressed");
-
-                $(".kbtn").toggleClass("kbtnPressed");
-            }
     });
 
 	$('#home #projects').click(function() {
@@ -44,25 +27,6 @@ var main = function() {
             $('#projects').removeClass("main-btnPressed");
     });
 
-
-	//Web Projects
-    $('#madlib').hover(function() {
-    		$('#madlib span').text('');},
-    		function() {
-    		$('#madlib span').text('Mad Lib');
-	});
-
-    $('#fizzbuzz').hover(function() {
-    		$('#fizzbuzz span').text('');},
-    		function() {
-    		$('#fizzbuzz span').text('Fizzbuzz');
-	});
-
-    $('#chf').hover(function() {
-            $('#chf span').text('');},
-            function() {
-            $('#chf span').text('CHF');
-    });
-}
+};
 
 $(document).ready(main);

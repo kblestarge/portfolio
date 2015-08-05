@@ -1,4 +1,4 @@
-<html>
+<html ng-app="portfolio">
 <head>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -12,26 +12,14 @@
 
 		<div class="projects">
 
-			<div class="vid-container">
-				<iframe class="youtube" src="https://www.youtube.com/embed/R1wM3lmLufI" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div class="vid-container">
-				<iframe class="youtube" src="https://www.youtube.com/embed/gfRkMKyC4R0" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div class="vid-container">
-				<iframe class="vimeo" src="https://player.vimeo.com/video/49177543?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-			</div>
-			<div class="vid-container">
-				<iframe class="vimeo" src="https://player.vimeo.com/video/128838712" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-			</div>
-			<div class="vid-container">
-				<iframe class="youtube" src="https://www.youtube.com/embed/Fk20VdL-LYI" frameborder="0" allowfullscreen></iframe>
-			</div>
+		<vidproj></vidproj>
+			
 		</div>
 
 	</div>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="portfolio.js"></script>
+	<script src="video.js"></script>
 </body>
 </html>
