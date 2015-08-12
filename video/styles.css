@@ -1,0 +1,103 @@
+body{
+	background-color: #D8CAA8;
+}
+
+h1{
+	margin-bottom: 0px;
+	display: inline-block;
+	text-align: left;
+	font-size: 4vw;
+	color: #382513;
+	z-index:-1;
+}
+
+.kbtn-home{
+	box-shadow: 5px 5px 2.5px #888888;
+	display: inline-block;
+	background-image: url('../img/KevHome.png');
+	background-repeat: no-repeat;
+	background-color: #363942; 
+	width: 90px;
+	height: 110px;
+	border-radius: 5px;
+	cursor:hand;
+	float: left;
+}
+
+.kbtn-home:hover{
+	background-color: #5C832F !important;
+}
+
+.vid-container{
+	float: left;
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 100px;
+	width: 560px;
+	height: 315px;
+}
+
+.youtube{
+	width: 560px; 
+	height: 315px;
+}
+
+.vimeo{
+	width: 500px;
+	height: 281px;
+}
+
+.main{
+	margin: 0 auto;
+	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.main h1{
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+	margin-bottom: 30;
+}
+
+.projects{
+	clear: both;
+	padding-left: 5%;
+	margin: 0 auto;
+	background-color: rgb(92, 131, 47);;
+	overflow: hidden;
+	margin-top: 244px;
+	border-radius: 30px;
+	padding-bottom: 100px;
+}
+
+.project{
+	display: inline-block;
+}
+
+.description{
+    margin-top: 40px;
+    float: left;
+    margin-left: 50px;
+}
+
+h2{
+	font-size: 65px;
+	margin-bottom: 0px;
+	width: 550px;
+}
+
+h3{
+	font-size: 32px;
+    color: #363942;
+    margin-top: 0px;
+}
+
+h4{
+    font-size: 22px;
+    color: black;
+    margin-bottom: -15px;
+}
+
+h4 span{
+	font-size: 18px;
+}

@@ -1,0 +1,17 @@
+<div class="project" ng-repeat="project in web.projects">
+
+	<a href="{{project.href}}" id="{{project.id}}" class="project"><span class="box-behind">{{project.title}}</span></a>
+
+	<a href="http://worldtechacademystudents.com/klestarge/fizzbuzz/" id="fizzbuzz" class="project"><span class="box-behind">Fizzbuzz</span></a>
+	<a href="http://worldtechacademystudents.com/klestarge/madlib/" id="madlib" class="project"><span class="box-behind">Mad Lib</span></a>
+
+	<a href="http://chf2015.com/" id="chf" class="project"><span class="box-behind">CHF</span></a>
+
+	<div class="description">
+		<h2>{{project.title}}</h2>
+		<h3>{{project.description}}</h3>
+		<h4><span>Camera:  </span>{{project.camera}}</h4>
+		<h4><span>Pub Date:  </span>{{project.pub_date | date: 'MMMM, y'}}</h4>
+		<h4><span>Role:  </span>{{project.role}}</h4>
+	</div>
+</div>

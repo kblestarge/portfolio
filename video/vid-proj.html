@@ -1,0 +1,12 @@
+<div class="project" ng-repeat="project in vid.projects | orderBy:'-pub_date'">
+	<div class="vid-container">
+		<iframe class="{{project.class}}" ng-src="{{project.src}}" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<div class="description">
+		<h2>{{project.title}}</h2>
+		<h3>{{project.description}}</h3>
+		<h4><span>Camera:</span>  {{project.camera}}</h4>
+		<h4><span>Pub Date:</span>  {{project.pub_date | date: 'MMMM, y'}}</h4>
+		<h4><span>Role:</span>  {{project.role}}</h4>
+	</div>
+</div>
