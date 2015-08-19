@@ -8,11 +8,10 @@ app.directive('webproj', function(){
         controller: function() {
 
             var self = this;
-            self.hidden = null;
 
             self.projects = [
                 {
-                    href : 'http://worldtechacademystudents.com/klestarge/fizzbuzz/',
+                    href : 'worldtechacademystudents.com/klestarge/fizzbuzz/',
                     id : 'fizzbuzz',
                     title: 'FizzBuzz'
                 },
@@ -47,14 +46,6 @@ app.directive('webproj', function(){
                     title: 'Snake'
                 }
             ];
-
-            self.eraseTitle = function(id) {
-                self.hidden = id;
-            };
-
-            self.resetTitle = function() {
-                self.hidden = null;
-            };
 
         },
         controllerAs: "web"

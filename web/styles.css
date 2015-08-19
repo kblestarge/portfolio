@@ -46,7 +46,7 @@ h1{
 	margin: 0 auto;
 	background-color: rgb(92, 131, 47);;
 	overflow: hidden;
-	margin-top: 244px;
+	margin-top: 125px;
 	border-radius: 30px;
 	padding-bottom: 100px;
 }
@@ -55,7 +55,8 @@ h1{
 	margin-top: 100px;
 	margin-left: 100px;
 	width: 388px;
-	height: 236px;
+    padding-top: 84px;
+    height: 152px;
 	float: left;
 	text-align: center;
 	font-size: 50px;
@@ -65,10 +66,19 @@ h1{
 	border-radius: 5px;
 }
 
+.project span{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 .box-behind{
 	background-color: rgb(216, 202, 168);
 	box-shadow: 4px 4px 2.5px #888888;
 	border-radius: 10px;
+}
+
+.project:hover span{
+	visibility: hidden;
 }
 
 #madlib{
@@ -82,12 +92,48 @@ h1{
 	background-image: url("../img/fizzbuzzPixelated.png");
 }
 
-#fizzbuzz span{
-	margin-top: 73px;
-}
-
 #fizzbuzz:hover{
 	background-image: url("../img/fizzbuzz.png");
+}
+
+#tictactoe{
+	background-image: url("../img/tictactoePixelated.png");
+}
+
+#tictactoe:hover{
+	background-image: url("../img/tictactoe.png");
+}
+
+#calculator{
+	background-image: url("../img/calculatorPixelated.png");
+}
+
+#calculator:hover{
+	background-image: url("../img/calculator.png");
+}
+
+#photogallery{
+	background-image: url("../img/photogalleryPixelated.png");
+}
+
+#photogallery:hover{
+	background-image: url("../img/photogallery.png");
+}
+
+#hybrid{
+	background-image: url("../img/carPixelated.png");
+}
+
+#hybrid:hover{
+	background-image: url("../img/car.png");
+}
+
+#snake{
+	background-image: url("../img/snakePixelated.png");
+}
+
+#snake:hover{
+	background-image: url("../img/snake.png");
 }
 
 .fsPic{
