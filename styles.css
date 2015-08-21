@@ -1,19 +1,25 @@
 body{
-	background-color: #D8CAA8;
+	background-color: #363942;
 }
+
+.body-clickable{
+	cursor: hand;
+}
+
 h1{
-	margin-bottom: 0px;
+	margin-bottom: 7px;
 	display: inline-block;
 	text-align: left;
-	font-size: 4vw;
+    font-size: 76px;
 	color: #382513;
 	z-index:-1;
 }
 
 #home{
-	width: 35%;
-	margin: 0 auto;
-	padding-top: 10%;
+    width: 510px;
+    left: 34%;
+    position: absolute;
+    top: 16%;
 	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -25,7 +31,6 @@ h1{
 }
 
 .kbtn{
-	box-shadow: 5px 5px 2.5px #888888;
 	display: inline-block;
 	background-image: url('img/KevPixelated.png');
 	background-repeat: no-repeat;
@@ -33,12 +38,11 @@ h1{
 	width: 155px;
 	height: 170px;
 	border-radius: 5px;
-	cursor:hand;
 }
 
-.kbtn:hover{
+/*.kbtn:hover{
 	background-color: #5C832F !important;
-}
+}*/
 
 .kbtnPressed{
 	background-image: url('img/KevUnpixelate.png') !important;
@@ -79,13 +83,13 @@ h1{
 }
 
 #soc-menu{
-	display: inline-block;
-	float: left;
-	background-color: #284907;
-	visibility: hidden;
-	width: 140px;
-	border-radius: 5px;
-	margin-left: 10px;
+    display: inline-block;
+    float: right;
+    background-color: #284907;
+    visibility: hidden;
+    width: 155px;
+    border-radius: 5px;
+    margin-right: 26px;
 }
 
 .main-btn{
@@ -93,7 +97,7 @@ h1{
   visibility: hidden;
   text-align: center;
   font-size: 15px;
-  width: 140px;
+  width: 155px;
   border-radius: 5px;
   color: white;
   cursor: hand;
@@ -104,8 +108,16 @@ h1{
   float: left;
 }
 
+.main-btn:hover{
+	background-color:#5C832F;
+}
+
 .main-btnPressed{
 	background-color: #284907;
+}
+
+#web, #video{
+	text-decoration: none;
 }
 
 ul{

@@ -1,12 +1,9 @@
-<div>
-	<a href="https://google.com">TEST!!</a>
-	<div ng-repeat="project in web.projects">
-		
-		<a href="{{project.href}}" id="{{project.id}}" ng-mouseover="web.eraseTitle(project.id)" ng-mouseleave="web.resetTitle()" class="project">
-			<span ng-hide="web.hidden === project.id" class="box-behind">
-				{{project.title}}
-			</span>
-		</a>
+<div ng-repeat="project in web.projects">
+	
+	<a href="{{project.href}}" target="_blank" id="{{project.id}}" ng-mouseover="web.eraseTitle(project.id)" ng-mouseleave="web.resetTitle()" class="project">
+		<span ng-hide="web.hidden === project.id" class="box-behind">
+			{{project.title}}
+		</span>
+	</a>
 
-	</div>
 </div>

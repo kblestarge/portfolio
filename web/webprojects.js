@@ -11,7 +11,7 @@ app.directive('webproj', function(){
 
             self.projects = [
                 {
-                    href : 'worldtechacademystudents.com/klestarge/fizzbuzz/',
+                    href : 'http://worldtechacademystudents.com/klestarge/fizzbuzz/',
                     id : 'fizzbuzz',
                     title: 'FizzBuzz'
                 },

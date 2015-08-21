@@ -6,9 +6,17 @@ h1{
 	margin-bottom: 0px;
 	display: inline-block;
 	text-align: left;
-	font-size: 4vw;
+	font-size: 77px;
 	color: #382513;
 	z-index:-1;
+}
+
+.github{
+    float: left;
+    position: absolute;
+    width: 62px;
+    margin-left: -252px;
+    margin-top: 48px;
 }
 
 .main{
@@ -20,7 +28,7 @@ h1{
 	margin-top: 20px;
 	margin-left: 20px;
 	float: left;
-	margin-bottom: 30;
+	margin-bottom: 30px;
 }
 
 .kbtn-home{

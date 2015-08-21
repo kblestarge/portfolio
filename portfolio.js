@@ -1,23 +1,28 @@
 //I need to figure out how to use HTML5 storage to save the state of a page when the back button is pressed.
 var main = function() {
 
-	$('.kbtn, #home h1').click(function() {
-            $('#home h1').toggleClass("appear slide");
-            $('#home .main-btn').toggleClass("appear");
+    if(localStorage.getItem("visited")){
+        // $('.kbtn').click();
+        $('body').css('background-color', '#D8CAA8');
+        $('#home h1').addClass("appear slide");
+        $('#home .main-btn').addClass("appear");
 
-            $('#proj-menu').removeClass("appear fade");
-            $('#soc-menu').removeClass("appear fade");
-            $('#projects').removeClass("main-btnPressed");
-            $('#socialM').removeClass("main-btnPressed");
+        $(".kbtn").addClass("kbtnPressed");
+        $('body').removeClass('body-clickable');
+    }
 
-            $(".kbtn").toggleClass("kbtnPressed");
-    });
+	$('.body-clickable').click(function() {
+            $('body').css('background-color', '#D8CAA8');
+            $('#home h1').addClass("appear slide");
+            $('#home .main-btn').addClass("appear");
 
-	$('#home #projects').click(function() {
-            $('#proj-menu').toggleClass("appear fade");
-            $(this).toggleClass("main-btnPressed");
-            $('#soc-menu').removeClass("appear fade");
-            $('#socialM').removeClass("main-btnPressed");
+            $(".kbtn").addClass("kbtnPressed");
+            $('body').removeClass('body-clickable');
+
+            if (typeof(Storage) != "undefined") {
+                // Store saved state
+                localStorage.setItem("visited", 1);
+            }
     });
 
 	$('#home #socialM').click(function() {
