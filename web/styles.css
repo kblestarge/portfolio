@@ -11,6 +11,15 @@ h1{
 	z-index:-1;
 }
 
+.stack img{
+    height: 60px;
+    margin-top: 42px;
+}
+
+.stack{
+	margin-right: 10px;
+}
+
 .github{
     float: left;
     position: absolute;
