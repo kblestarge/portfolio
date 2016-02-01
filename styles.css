@@ -1,5 +1,8 @@
 body{
 	background-color: #363942;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .body-clickable{
@@ -17,10 +20,7 @@ h1{
 
 #home{
     width: 510px;
-    left: 34%;
-    position: absolute;
-    top: 16%;
-	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .hidden{
@@ -108,7 +108,7 @@ h1{
   float: left;
 }
 
-.main-btn:hover{
+.main-btn:hover, .main-btn:focus{
 	background-color:#5C832F;
 }
 
@@ -118,6 +118,11 @@ h1{
 
 #web, #video{
 	text-decoration: none;
+}
+
+#socialM{
+	border: none;
+	padding: 0;
 }
 
 ul{
@@ -136,7 +141,7 @@ ul > li > a{
 	display:block;
 	cursor:hand;
 }
-ul > li > a:hover{
+ul > li > a:hover, ul > li > a:focus{
 	background-color:#5C832F;
 	text-decoration: none;
 	color: white;

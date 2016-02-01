@@ -16,10 +16,11 @@ h1{
 	display: inline-block;
 	background-image: url('../img/KevHome.png');
 	background-repeat: no-repeat;
-	background-color: #363942; 
+	background-color: #363942;
 	width: 90px;
 	height: 110px;
 	border-radius: 5px;
+	margin: 10px 0 0 10px;
 	cursor:hand;
 	float: left;
 }
@@ -29,12 +30,12 @@ h1{
 }
 
 .vid-container{
-	float: left;
+	/* float: left; */
 	text-align: center;
-	margin-top: 100px;
-	margin-left: 100px;
-	width: 560px;
-	height: 315px;
+	/* margin-top: 100px; */
+	/* margin-left: 100px; */
+	/* width: 560px; */
+	/* height: 315px; */
 }
 
 .youtube{
@@ -61,29 +62,38 @@ h1{
 
 .projects{
 	clear: both;
-	padding-left: 5%;
+	/* padding-left: 5%; */
 	margin: 0 auto;
-	background-color: rgb(92, 131, 47);;
+	background-color: rgb(92, 131, 47);
 	overflow: hidden;
 	margin-top: 244px;
 	border-radius: 30px;
 	padding-bottom: 100px;
+	padding-top: 50px;
 }
 
 .project{
-	display: inline-block;
+	width: 560px;
+	/* height: 650px; */
+	margin: 25px;
+	/* display: flex; */
+	/* text-align: center; */
 }
 
 .description{
-    margin-top: 40px;
+    margin-top: 25px;
     float: left;
-    margin-left: 50px;
+    /* width: 550px; */
+    /* float: left; */
+    margin-left: 30px;
+    height: 330px;
 }
 
 h2{
 	font-size: 65px;
-	margin-bottom: 0px;
-	width: 550px;
+	margin: -16px 0 0 0;
+	/* width: 550px; */
+	/* text-align: center; */
 }
 
 h3{
@@ -100,4 +110,12 @@ h4{
 
 h4 span{
 	font-size: 18px;
+}
+
+vidproj{
+	display: flex;
+	justify-content: center;
+	/* flex-direction: column; */
+	align-items: center;
+	flex-wrap: wrap;
 }

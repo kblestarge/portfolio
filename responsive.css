@@ -1,0 +1,41 @@
+@media screen and (max-width: 770px) {
+
+.kbtn{
+    display: block;
+    margin: 20px auto;
+}
+
+h1{
+    text-align: center;
+    display: block;
+    margin: 0;
+}
+
+.main-btn{
+    width: 100%;
+    box-shadow: none;
+    margin: 2px 0 0 0;
+    font-size: 22px;
+    padding: 10px 0 !important;
+}
+
+ul > li > a{
+    font-size: 18px;
+    padding: 10px 0;
+    /* border: 1px solid #5C832F; */
+}
+
+#soc-menu{
+    width: 100%;
+    margin: 2px 0 20px 0;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+
+h1{
+    font-size: 65px;
+}
+
+}

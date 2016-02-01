@@ -1,4 +1,3 @@
-//I need to figure out how to use HTML5 storage to save the state of a page when the back button is pressed.
 // var main = function() {
 
     var app = angular.module('portfolio', []);
@@ -64,9 +63,17 @@
                         camera: 'Sony SF7, Sony a72',
                         pub_date: new Date('December 2014'),
                         role: '2nd Camera, Editor'
+                    },
+                    {
+                        class : 'vimeo',
+                        src : 'https://player.vimeo.com/video/151736393',
+                        title: 'The Sauna Experience',
+                        description: 'Short Documentary',
+                        camera: 'Sony a7S, Sony a6000',
+                        pub_date: new Date('January 2016'),
+                        role: 'All Roles'
                     }
                 ];
-
             },
             controllerAs: "vid"
         };

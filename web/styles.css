@@ -45,10 +45,11 @@ h1{
 	display: inline-block;
 	background-image: url('../img/KevHome.png');
 	background-repeat: no-repeat;
-	background-color: #363942; 
+	background-color: #363942;
 	width: 90px;
 	height: 110px;
 	border-radius: 5px;
+	margin: 10px 0 0 10px;
 	cursor:hand;
 	float: left;
 }
@@ -57,103 +58,85 @@ h1{
 	background-color: #5C832F !important;
 }
 
+.vid-container{
+	/* float: left; */
+	text-align: center;
+	/* margin-top: 100px; */
+	/* margin-left: 100px; */
+	/* width: 560px; */
+	/* height: 315px; */
+}
+
 .projects{
 	clear: both;
-	padding-left: 5%;
+	/* padding-left: 5%; */
 	margin: 0 auto;
-	background-color: rgb(92, 131, 47);;
+	background-color: rgb(92, 131, 47);
 	overflow: hidden;
-	margin-top: 125px;
 	border-radius: 30px;
 	padding-bottom: 100px;
+	padding-top: 50px;
 }
 
 .project{
-	margin-top: 100px;
-	margin-left: 100px;
-	width: 388px;
-    padding-top: 84px;
-    height: 152px;
-	float: left;
-	text-align: center;
-	font-size: 50px;
-	text-decoration: none;
-	background-repeat: no-repeat;
-	color: #5C832F;
-	border-radius: 5px;
+	/* width: 560px; */
+	/* height: 650px; */
+	/* float: left; */
+	display: block;
+	margin: 25px;
+	/* display: flex; */
+	/* text-align: center; */
 }
 
-.project span{
-	padding-left: 10px;
-	padding-right: 10px;
+.description{
+    /* margin-top: 25px; */
+    /* float: left; */
+    width: 400px;
+    margin-left: 30px;
 }
 
-.box-behind{
-	background-color: rgb(216, 202, 168);
-	box-shadow: 4px 4px 2.5px #888888;
-	border-radius: 10px;
+h2{
+	font-size: 55px;
+	margin: -16px 0 0 0;
+	color: #382513;
+	/* width: 550px; */
+	/* text-align: center; */
 }
 
-.project:hover span{
-	visibility: hidden;
+h3{
+	font-size: 24px;
+	color: #363942;
+	width: 400px;
+	margin-top: 0px;
 }
 
-#madlib{
-	background-image: url("../img/madlibPixelated.png");
-}
-#madlib:hover{
-	background-image: url("../img/madlib.png");
-}
-
-#fizzbuzz{
-	background-image: url("../img/fizzbuzzPixelated.png");
+h4{
+    font-size: 18px;
+    color: #5C832F;
+    margin-bottom: -15px;
 }
 
-#fizzbuzz:hover{
-	background-image: url("../img/fizzbuzz.png");
+h4 span{
+	font-size: 18px;
+	color: #363942;
+	text-decoration: underline;
+}
+webproj{
+	display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-#tictactoe{
-	background-image: url("../img/tictactoePixelated.png");
+.screenshot{
+    width: 400px;
+    border-radius: 5px;
 }
 
-#tictactoe:hover{
-	background-image: url("../img/tictactoe.png");
-}
-
-#calculator{
-	background-image: url("../img/calculatorPixelated.png");
-}
-
-#calculator:hover{
-	background-image: url("../img/calculator.png");
-}
-
-#photogallery{
-	background-image: url("../img/photogalleryPixelated.png");
-}
-
-#photogallery:hover{
-	background-image: url("../img/photogallery.png");
-}
-
-#hybrid{
-	background-image: url("../img/carPixelated.png");
-}
-
-#hybrid:hover{
-	background-image: url("../img/car.png");
-}
-
-#snake{
-	background-image: url("../img/snakePixelated.png");
-}
-
-#snake:hover{
-	background-image: url("../img/snake.png");
-}
-
-.fsPic{
-	float: right;
-	border-radius: 30px;
+.container{
+    background-color: #D8CAA8;
+    height: 580px;
+    margin: 10px;
+    border-radius: 5px;
 }
