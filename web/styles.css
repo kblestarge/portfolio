@@ -11,21 +11,34 @@ h1{
 	z-index:-1;
 }
 
+#o{
+	display:none;
+}
+
+#firebase{
+    width: 36px;
+    height: auto;
+    padding: 4px 10px;
+}
+
 .stack img{
-    height: 60px;
-    margin-top: 42px;
+    height: 52px;
+    float: right;
 }
 
 .stack{
 	margin-right: 10px;
+	position: absolute;
+	right: 0;
+	width: 200px;
 }
 
 .github{
     float: left;
     position: absolute;
     width: 62px;
-    margin-left: -252px;
-    margin-top: 48px;
+    margin-left: 302px;
+    margin-top: 46px;
 }
 
 .main{
@@ -37,7 +50,7 @@ h1{
 	margin-top: 20px;
 	margin-left: 20px;
 	float: left;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 .kbtn-home{

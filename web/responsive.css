@@ -1,0 +1,114 @@
+@media screen and (max-width: 840px) {
+
+h1{
+    float: none !important;
+    text-align: center;
+    display: block;
+    clear: both;
+    margin-bottom: 0 !important;
+}
+
+.stack{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.stack img{
+    height: 40px;
+}
+
+#firebase{width: 26px;}
+
+.kbtn-home{
+    display: block;
+    margin: 10px auto;
+    float: none;
+    margin-bottom: 20px;
+}
+
+.github{
+    position: absolute;
+    margin: 65px 53% 0;
+}
+
+}
+
+@media screen and (max-width: 570px) {
+
+h1{
+    font-size: 60px;
+    padding-top: 100px;
+}
+
+h1 span{display: block;}
+
+.stack{
+    width: 135px;
+}
+
+.stack img{}
+
+.github{margin: 130px;margin-left: auto; margin-right: auto; left: 0; right: 0;clear: both;position: absolute;width: 87px;}
+
+.projects{
+    background-color: #D8CAA8;
+    padding-top: 20px;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    /* border: 3px solid brown; */
+}
+
+.project{
+    margin: 17px 0;
+}
+
+.description{
+    margin: 0;
+    width: 100%;
+}
+
+h2{
+    font-size: 45px;
+    text-align: center;
+}
+
+h3{
+    font-size: 21px;
+    /* padding: 0 10px; */
+    width: 90%;
+    margin: 10px auto;
+    /* margin-right: 49px; */
+}
+
+h4{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.screenshot{
+    width: 100%;
+}
+
+#github-space{
+    display:none;
+}
+
+#o{
+    display: inline-block;
+}
+
+}
+
+@media screen and (max-width: 450px) {
+
+.github{
+    /* margin: -57px 34% 0; */
+    /* width: 54px; */
+}
+
+}
